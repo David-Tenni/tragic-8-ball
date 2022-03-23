@@ -14,8 +14,8 @@
 #ball_body {
     background-image: radial-gradient(farthest-side at 20% 15%, white, gray 0%,black 65%);
     border-radius: 100%;
-    height: 400px;
-    width: 400px;
+    height: 800px;
+    width: 800px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -23,8 +23,8 @@
 }
 #ball_window {
     position: absolute;         background-color: black;
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     border-radius: 100%;
     border: 2px inset rgb(51, 51, 51, 0.7);
     display: flex;
@@ -35,10 +35,10 @@
     position: absolute;
     width: 0;
     height: 0;
-    margin-top: 15px;
-    border-left: 65px solid transparent;
-    border-right: 65px solid transparent;
-    border-top: 130px solid mediumblue;
+    margin-top: 30px;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    border-top: 260px solid mediumblue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
